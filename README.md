@@ -1,6 +1,8 @@
 # web_page_to_pdf
 Converta páginas web em PDF de forma simples e eficaz
+
 Já precisou guardar uma página web no modo off-line para poder ler ou rever depois, mas gostaria de ter em formato digital?! 
+
 Este programa converte qualquer página web em PDF para que você tenha mais liberdade na sua leitura ou o que desejar fazer. 
 
 # Dependências 
