@@ -27,6 +27,10 @@
 
 - [PDF Página exemplar (ArtesGC)](arquivosConvertidos-DEMO/artesgc.pdf)
 
+# Changelog
+
+- [Leia o Arquivo](CHANGELOG)
+
 ---
 
 **_Estou dando os primeiros passos na linguagem e a sua opinião ou contributo ajudará imenso, por favor, estrela o repositório e se quiser faça a sua contribuição para ajudar a melhorar este 
