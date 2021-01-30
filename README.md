@@ -25,7 +25,7 @@
 
 # Página Convertida - _DEMO_
 
-- [Página exemplar (ArtesGC)](arquivosConvertidos-DEMO/artesgc.pdf)
+- [PDF Página exemplar (ArtesGC)](arquivosConvertidos-DEMO/artesgc.pdf)
 
 ---
 
