@@ -32,19 +32,19 @@ def creatdir(nome_dir: str):
 def banner():
     print(f"""{colorama.Fore.CYAN}
 \t\t--------------------------------
-\t\t|  CONVERSOR HTML TO PDF v1.0  |
+\t\t|  CONVERSOR HTML TO PDF v1.1  |
 \t\t--------------------------------
 """)
 
 
 def main(endereco_site, nome_arquivo):
-    print(f'\n[*] POR FAVOR AGUARDE, O ARQUIVO {nome_arquivo}.pdf ESTA A SER REPRODUZIDO!')
+    print(f'\n[*] POR FAVOR AGUARDE, O ARQUIVO {nome_arquivo}.pdf ESTA A SER REPRODUZIDO!\n...')
     api = pdfcrowd.HtmlToPdfClient("demo", "ce544b6ea52a5621fb9d55f8b542d14d")
     try:
-        if endereco_site not in 'https://':
-            api.convertUrlToFile('https://' + endereco_site, f'{nome_arquivo}.pdf')
-        else:
+        if 'https://' in endereco_site:
             api.convertUrlToFile(endereco_site, f'{nome_arquivo}.pdf')
+        else:
+            api.convertUrlToFile('https://' + endereco_site, f'{nome_arquivo}.pdf')
         shutil.move(f'{nome_arquivo}.pdf', diretorio)
         print('-' * 30)
         print(f'{colorama.Fore.GREEN}CONVERSÃO FEITA COM SUCESSO')
