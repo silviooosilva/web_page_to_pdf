@@ -15,6 +15,9 @@
 
 - pip install -r requirements.txt
 
+# Usando
+- python3 __main__.py
+
 # Retornando Erro
 
 ![](img/erro.png)
